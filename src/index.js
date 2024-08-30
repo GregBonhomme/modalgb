@@ -1,4 +1,3 @@
-import "../../style/components/modal.css"
 import { useRef,useState,useEffect } from "react"
 
 function Modal ({isOpen,setModalOpened ,children}) {
