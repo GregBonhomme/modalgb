@@ -1,0 +1,39 @@
+{
+  "name": "ddmenugb",
+  "version": "0.1.0",
+  "description": "Librairie pour afficher un menu déroulant entièrement customisable avec des classes CSS simples",
+  "main": "/build/index.js",
+  "files": [
+    "build",
+    "assets"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src --out-dir build && xcopy src\\assets build\\assets /E /I /Y"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GregBonhomme/ddmenugb.git"
+  },
+  "keywords": [
+    "dropdown",
+    "menu",
+    "css"
+  ],
+  "author": "Grégoire Bonhomme",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GregBonhomme/ddmenugb/issues"
+  },
+  "homepage": "https://github.com/GregBonhomme/ddmenugb#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.24.8",
+    "@babel/core": "^7.25.2",
+    "@babel/preset-env": "^7.25.4",
+    "@babel/preset-react": "^7.24.7"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  }
+}
