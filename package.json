@@ -1,6 +1,6 @@
 {
   "name": "ddmenugb",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Librairie pour afficher un menu déroulant entièrement customisable avec des classes CSS simples",
   "main": "/build/index.js",
   "files": [
@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/GregBonhomme/ddmenugb.git"
+    "url": "git+https://github.com/GregBonhomme/modalgb"
   },
   "keywords": [
     "dropdown",
@@ -23,9 +23,9 @@
   "author": "Grégoire Bonhomme",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/GregBonhomme/ddmenugb/issues"
+    "url": "https://github.com/GregBonhomme/modalgb/issues"
   },
-  "homepage": "https://github.com/GregBonhomme/ddmenugb#readme",
+  "homepage": "https://github.com/GregBonhomme/modalgb#readme",
   "devDependencies": {
     "@babel/cli": "^7.24.8",
     "@babel/core": "^7.25.2",
