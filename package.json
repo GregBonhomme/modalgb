@@ -1,6 +1,6 @@
 {
   "name": "modalgb",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Librairie pour afficher un menu déroulant entièrement customisable avec des classes CSS simples",
   "main": "/build/index.js",
   "files": [
