@@ -1,6 +1,6 @@
 {
   "name": "ddmenugb",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Librairie pour afficher un menu déroulant entièrement customisable avec des classes CSS simples",
   "main": "/build/index.js",
   "files": [
