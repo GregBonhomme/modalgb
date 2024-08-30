@@ -1,4 +1,5 @@
 import React, { useRef,useState,useEffect } from "react"
+import closeBtn from "./assets/closeBtn.png"
 
 function Modal ({isOpen,setModalOpened ,children}) {
 
@@ -30,7 +31,7 @@ function Modal ({isOpen,setModalOpened ,children}) {
     return (
         <div ref={modalRef} onKeyDown={handleEscapeKey} className="modal" style={{display:modalDisplay}}>
             <div className="modal_closeBtn" onClick={handleCloseModal}>
-                <img src="./assets/closeBtn.png" alt="Bouton de fermeture" />
+                <img src={closeBtn} alt="Bouton de fermeture" />
             </div>
             {children}
         </div>
