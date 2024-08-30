@@ -6,6 +6,8 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports["default"] = void 0;
 var _react = _interopRequireWildcard(require("react"));
+var _closeBtn = _interopRequireDefault(require("./assets/closeBtn.png"));
+function _interopRequireDefault(e) { return e && e.__esModule ? e : { "default": e }; }
 function _getRequireWildcardCache(e) { if ("function" != typeof WeakMap) return null; var r = new WeakMap(), t = new WeakMap(); return (_getRequireWildcardCache = function _getRequireWildcardCache(e) { return e ? t : r; })(e); }
 function _interopRequireWildcard(e, r) { if (!r && e && e.__esModule) return e; if (null === e || "object" != _typeof(e) && "function" != typeof e) return { "default": e }; var t = _getRequireWildcardCache(r); if (t && t.has(e)) return t.get(e); var n = { __proto__: null }, a = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var u in e) if ("default" !== u && {}.hasOwnProperty.call(e, u)) { var i = a ? Object.getOwnPropertyDescriptor(e, u) : null; i && (i.get || i.set) ? Object.defineProperty(n, u, i) : n[u] = e[u]; } return n["default"] = e, t && t.set(e, n), n; }
 function _slicedToArray(r, e) { return _arrayWithHoles(r) || _iterableToArrayLimit(r, e) || _unsupportedIterableToArray(r, e) || _nonIterableRest(); }
@@ -52,7 +54,7 @@ function Modal(_ref) {
     className: "modal_closeBtn",
     onClick: handleCloseModal
   }, /*#__PURE__*/_react["default"].createElement("img", {
-    src: "./assets/closeBtn.png",
+    src: _closeBtn["default"],
     alt: "Bouton de fermeture"
   })), children);
 }
