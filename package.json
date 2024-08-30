@@ -1,5 +1,5 @@
 {
-  "name": "ddmenugb",
+  "name": "modalgb",
   "version": "0.1.2",
   "description": "Librairie pour afficher un menu déroulant entièrement customisable avec des classes CSS simples",
   "main": "/build/index.js",
