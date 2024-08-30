@@ -1,5 +1,4 @@
-import React, { useState } from "react"
-import { useRef,useState,useEffect } from "react"
+import React, { useRef,useState,useEffect } from "react"
 
 function Modal ({isOpen,setModalOpened ,children}) {
 
